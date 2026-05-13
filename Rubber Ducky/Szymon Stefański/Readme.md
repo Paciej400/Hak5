@@ -182,7 +182,7 @@ to open mass storage mode.
 
 ### Step 2: Downlaod / Extract HackBrowserData
 1. Go to the [HackBrowserData Releases Page](https://github.com/moonD4rk/HackBrowserData/releases).
-2. Download **`hack-browser-data-windows-amd64.zip`**.
+2. Download **`hack-browser-data-windows-64bit.zip`**.
 3. Extract the `.zip` and rename the `.exe` to **`h.exe`**.
 4. Copy `h.exe` into the `tools/` folder on the MicroSD.
 
@@ -257,8 +257,9 @@ Read the `Penetration testing research report (Ducky)` to learn more about the l
 ## Author
 
 **Szymon Stefański**
-*Security Research | Penetration Testing Student*
 
 ---
 
-*Version 2.0*
+## License
+This project is for **educational use only**.
+Redistribution or use in unauthorized environments is strictly prohibited.
