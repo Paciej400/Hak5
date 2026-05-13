@@ -16,15 +16,14 @@ By tricking the computer to recognise it as a keyboard, it allows for rapid keys
 
 This project utilise [USB Rubber Ducky](#introduction) to steal password protected pdf files from source directory of `Windows` operated machines.
 
-Upon pluging in the device starts in `STORAGE` mode. In this configuration it functions as normal USB flash drive. Wait approximately 3s. You should see external drive labeled "DUCKY".
+Upon pluging in the device starts in `STORAGE` mode. In this configuration it functions as normal USB flash drive. Wait approximately 3s. You should see external drive labeled "DUCKY".\
 Now sqeeze the device gently to press the button under the case. Your device should enter `HID STORAGE` mode and start the attack. It will open powershell command prompt and execute [payload.ps1](#payloadps1) stored on the device.
-The command prompt will close but the script will run in the back ground.
-The script first create a directory with the name of machine it has been pluged into.
-Then it is searching target location looking for encrypted pdf files.
+The script first creates a directory with the name of machine it has been pluged into.
+Then it is searching target location looking for encrypted pdf files.\
 For convinience the target location is defined by [target.txt](#targettxt).
-So you do not have to manually change it inside the script.
+So you do not have to manually change it inside the script.\
 When an encrypted pdf file is found, it is copied into prior created folder.
-Afterwords the script cover it's tracks by deleting history of recently accesed files and commands started via run window.
+Afterwords the script cover it's tracks by deleting history of recently accesed files and commands started via run window.\
 Lastly the script will signalize end of the task by turnning `CAPSLOCK` key on and off three times.
 
 ## How to use
@@ -32,7 +31,7 @@ Lastly the script will signalize end of the task by turnning `CAPSLOCK` key on a
 1. Visit [Payload Studio](https://payloadstudio.hak5.org/community/) and using [payload.txt](#payloadtxt) generate inject.bin file.
 2. Plug in your [USB Rubber Ducky](#introduction).
     1. If you can not see it as drive squeeze it gently to switch it to `STORAGE` mode.
-3. Drag and paste [payload.txt](#payloadtxt), [payload.ps1](#payloadps1) and [target.txt](#targettxt) onto your device.
+3. Drag and paste inject.bin, [payload.ps1](#payloadps1) and [target.txt](#targettxt) onto your device.
 4. Define path to source dir in [target.txt](#targettxt).
 5. Eject and remove the device.
 6. You are good to go!
@@ -45,11 +44,11 @@ The project consist of three components:
 - [payload.ps1](#payloadps1)
 - [target.txt](#targettxt)
 
-## payload.txt
+### payload.txt
 
 A DuckySript script responsible for configuration of [USB Rubber Ducky](#introduction), and setting of [payload.ps1](#payloadps1). To generate inject.bin visit [Payload Studio](https://payloadstudio.hak5.org/community/).
 
-## payload.ps1
+### payload.ps1
 
 Main component of the project. It contains three main functionalities:
 
@@ -57,7 +56,7 @@ Main component of the project. It contains three main functionalities:
 - Copying above-mentioned files on to the [USB Rubber Ducky](#introduction).
 - Covering tracks. Clearing history of used files and ran commands.
 
-## target.txt
+### target.txt
 
-Defines the source directory in whitch the [payload.ps1](#payloadps1) will look for files.
+Defines the source directory in which the [payload.ps1](#payloadps1) will look for files.
 If [target.txt](#targettxt) or indicated directory does not exist the [payload.ps1](#payloadps1) by default assumes `$env:USERPROFILE\Downloads` as source directory.
