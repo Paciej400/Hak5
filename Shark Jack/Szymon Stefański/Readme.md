@@ -3,7 +3,7 @@
 ## Overview
 
 This payload transforms the **Hak5 Shark Jack Cable (SJC)** into an automated
-network reconnaissance platform. Upon physical connection to a target network
+network reconnaissance platform using Input Injection technique. Upon physical connection to a target network
 via RJ45, the script autonomously performs:
 
 1. **Network Configuration Detection** (IP, Gateway, Subnet)

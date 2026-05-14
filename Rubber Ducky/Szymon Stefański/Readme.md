@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains a two-stage payload for the **Hak5 USB Rubber Ducky 3.0** that demonstrates browser data exfiltration on Windows 10/11 systems using a staged architecture.
+This repository contains a two-stage payload for the **Hak5 USB Rubber Ducky 3.0** that demonstrates browser data exfiltration on Windows 10/11 systems using a staged architecture using Input Injecton type of attack.
 
 > **DISCLAIMER:** This project was created strictly for **educational and research purposes** in a **controlled, isolated lab environment.** The techniques demonstrated here should **never** be used against systems you do not own or have explicit written permission to test. Unauthorized use of these tools is illegal and unethical.
 
