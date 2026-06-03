@@ -1,0 +1,37 @@
+LED SETUP
+ATTACKMODE HID
+CUCUMBER ENABLE
+LED YELLOW
+
+pages=(
+	"https://pg.edu.pl"
+	"https://eti.pg.edu.pl"
+	"https://zie.pg.edu.pl"
+	"https://wimio.pg.edu.pl"
+	"https://ftims.pg.edu.pl"
+	"https://wilis.pg.edu.pl"
+	"https://chem.pg.edu.pl"
+	"https://eia.pg.edu.pl"
+	"https://arch.pg.edu.pl"
+	"https://moja.pg.edu.pl"
+	"https://enauczanie.pg.edu.pl/2025/"
+)
+
+rand_page() {
+  idx=$(( RANDOM % ${#pages[@]} ))
+  echo "${pages[$idx]}"
+}
+
+while true; do
+  page=$(rand_page)
+
+  LED ATTACK
+  QUACK GUI r
+  QUACK DELAY 400
+  QUACK STRING "$page"
+  QUACK DELAY 100
+  QUACK ENTER
+
+  LED ACTIVITY
+  sleep 5
+done
