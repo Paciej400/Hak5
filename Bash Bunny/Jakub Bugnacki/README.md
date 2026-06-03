@@ -62,7 +62,7 @@ All scripts are designed to run on the Bash Bunny Mark II (Debian-based Linux, Q
 
 ## Disclaimer
 
-These materials are provided for educational and authorized security testing purposes only. Unauthorized use of these techniques against systems you do not own or have explicit permission to test is illegal. The author and the Gdańsk University of Technology assume no liability for misuse.
+These materials are provided for educational and authorized security testing purposes only. Unauthorized use of these techniques against systems you do not own or have explicit permission to test is illegal. The author assume no liability for misuse.
 
 ## References
 
