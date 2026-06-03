@@ -24,14 +24,16 @@ All scripts are designed to run on the Bash Bunny Mark II (Debian-based Linux, Q
 
 ## Repository Structure
 
+```text
 .
-├── README.md                              # This file
-├── Scripts/                               # Directory containing all attack payloads
-│   ├── Kopiowanie Plików/                 # Hybrid HID + STORAGE automated data theft
-│   ├── Otwieranie stron/                  # Dynamic Bash array loop URL spamming (PG portals)
-│   └── Pisanie w notatniku/               # Basic keyboard emulation & text input in Notepad
+├── README.md # This file
+├── Scripts/ # Directory containing all attack payloads
+│   ├── Kopiowanie Plików/ # Hybrid HID + STORAGE automated data theft
+│   ├── Otwieranie stron/ # Dynamic Bash array loop URL spamming (PG portals)
+│   └── Pisanie w notatniku/ # Basic keyboard emulation & text input in Notepad
 └── Demonstration
-    └── Ataki HID Injection.pdf            # Presentation slides (Polish)
+    └── Ataki HID Injection.pdf # Presentation slides (Polish)
+```
 
 ## Attack Scenarios
 
