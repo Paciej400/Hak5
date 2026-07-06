@@ -3,7 +3,11 @@
 ## Disclaimer
 
 > [!WARNING]
-> Project has been done for educational purposes only. Its aim is to demonstrate possibilities, limitations and threats of data transmitted via open ether (infrared light and radio waves in this case).
+> Project has been done for educational purposes only. Its aim is to demonstrate possibilities, limitations and threats of data transmitted via open ether (infrared light and radio waves in this case).<br/>
+<br/>
+All the experiements shown in this folder were done on authors' own devices.<br/>
+<br/>
+Respect privacy of others.
 
 ---
 ### Project overview
