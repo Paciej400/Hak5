@@ -8,6 +8,7 @@ Projekt wykonany w ramach zajęć na studiach. Jego celem jest demonstracja dzia
 
 ## Struktura projektu
 
+```text
 .
 ├── client/
 │   ├── duckyScripts/
@@ -32,6 +33,7 @@ Projekt wykonany w ramach zajęć na studiach. Jego celem jest demonstracja dzia
 │
 ├── .gitignore
 └── README.md
+```
 
 ---
 
