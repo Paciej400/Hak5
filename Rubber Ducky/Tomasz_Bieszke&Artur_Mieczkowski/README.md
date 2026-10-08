@@ -1,6 +1,3 @@
-Jasne — przy tej strukturze warto opisać każdy plik osobno i nie dodawać nieistniejących podfolderów. Poniżej masz README dopasowane dokładnie do Twojego projektu:
-
-```markdown
 # Keylogger — projekt akademicki
 
 Projekt wykonany w ramach zajęć na studiach. Jego celem jest demonstracja działania programu rejestrującego naciśnięcia klawiszy, komunikacji pomiędzy klientem i serwerem oraz automatyzacji procesu uruchamiania programu za pomocą urządzenia HID.
@@ -11,7 +8,6 @@ Projekt wykonany w ramach zajęć na studiach. Jego celem jest demonstracja dzia
 
 ## Struktura projektu
 
-```text
 .
 ├── client/
 │   ├── duckyScripts/
@@ -36,7 +32,6 @@ Projekt wykonany w ramach zajęć na studiach. Jego celem jest demonstracja dzia
 │
 ├── .gitignore
 └── README.md
-```
 
 ---
 
